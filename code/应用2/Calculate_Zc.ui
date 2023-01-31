@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Calculate_ZcClass</class>
+ <widget class="QWidget" name="Calculate_ZcClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>364</width>
+    <height>350</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Calculate_Zc</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>0</y>
+     <width>311</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Adobe Arabic</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="title">
+    <string>parameter：</string>
+   </property>
+   <widget class="QTextEdit" name="fxedt">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>20</y>
+      <width>111</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Adobe Arabic'; font-size:12pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;715.9617&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="u0edt">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>20</y>
+      <width>111</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Adobe Arabic'; font-size:12pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;659.8694&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="fyedt">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>70</y>
+      <width>111</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Adobe Arabic'; font-size:12pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;714.3184&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="v0edt">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>70</y>
+      <width>111</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Adobe Arabic'; font-size:12pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;321.4009&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="detadedt">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>110</y>
+      <width>81</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Adobe Arabic'; font-size:12pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;70&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>fx:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>80</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>fy:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>30</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>u0:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>80</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>v0:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>120</y>
+      <width>51</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>detaD:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="configbtn">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>130</y>
+      <width>91</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>config_init</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>170</y>
+     <width>311</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Adobe Arabic</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="title">
+    <string>control:</string>
+   </property>
+   <widget class="QPushButton" name="openbtn">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>71</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>10</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>opencam</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="closebtn">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>70</y>
+      <width>71</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>closecam</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>40</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Id:</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="Idedt">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>30</y>
+      <width>51</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Adobe Arabic'; font-size:12pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;-1&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="toolbtn">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>30</y>
+      <width>21</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>...</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="zcedt">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>110</y>
+      <width>121</width>
+      <height>32</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>120</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Zc:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>80</y>
+      <width>51</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>waitkey:</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="waitedt">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>70</y>
+      <width>71</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Adobe Arabic'; font-size:12pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;0&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>127</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>close ui</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="Calculate_Zc.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>openbtn</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculate_ZcClass</receiver>
+   <slot>opencam_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>299</x>
+     <y>46</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>310</x>
+     <y>164</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>closebtn</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculate_ZcClass</receiver>
+   <slot>closecam_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>319</x>
+     <y>84</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>445</x>
+     <y>164</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>toolbtn</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculate_ZcClass</receiver>
+   <slot>getdir_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>450</x>
+     <y>41</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>499</x>
+     <y>58</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculate_ZcClass</receiver>
+   <slot>closeui_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>304</x>
+     <y>315</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>346</x>
+     <y>303</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>configbtn</sender>
+   <signal>clicked()</signal>
+   <receiver>Calculate_ZcClass</receiver>
+   <slot>Config_init()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>314</x>
+     <y>142</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>351</x>
+     <y>193</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>opencam_clicked()</slot>
+  <slot>closecam_clicked()</slot>
+  <slot>getdir_clicked()</slot>
+  <slot>closeui_clicked()</slot>
+  <slot>Config_init()</slot>
+ </slots>
+</ui>
