@@ -10,8 +10,12 @@
 4.总的公式推导<br>
 ![Image text](https://github.com/fpeanut/World-Coordinate-Transformation/blob/main/img/4.png)<br>
  `坐标系转换的相关应用`<br>
-应用1:计算相机坐标系与笔记本屏幕3d坐标的关系。<br>
+应用1:计算相机坐标系与笔记本屏幕3d坐标的关系<br>
 注：该应用是对世界坐标转换功能的演变。即：此处的相机坐标系相当于世界坐标系，屏幕3d坐标系相当于相机坐标系。二者之间存在着旋转变换关系。<br>
-流程<br>
+流程:<br>
 ![Image text](https://github.com/fpeanut/World-Coordinate-Transformation/blob/main/img/5.jpg)<br>
 code:https://github.com/fpeanut/World-Coordinate-Transformation/tree/main/code/%E5%BA%94%E7%94%A81<br>
+应用2:已知相机内参，计算相机坐标系下的Zc值<br>
+流程：<br>
+![Image text](https://github.com/fpeanut/World-Coordinate-Transformation/blob/main/img/6.jpg)<br>
+code:
